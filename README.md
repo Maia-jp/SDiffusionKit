@@ -21,7 +21,7 @@ Now, we are going to use the main class to generate a UIimage from (DallE Mini)
 ```Swift
 Task{
   do{
-      imageStack = try await sdiffusion.imagine(prompt)
+      imageStack = try await sdiffusion.imagine("frog with sword")
   }catch{
       //Handle Error
   }
