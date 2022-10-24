@@ -9,9 +9,7 @@ final public class SDiffusionKit {
     /// - Parameter token: Replicate API token
     public init(_ token:String) {
         self.token = token
-        self.configuration = SDiffusionDalleConfig()
-        
-        configuration = SDiffusionDalleConfig(temperature: :1, numberOfExpectedImages: 10)
+        self.configuration = SDiffusionMiniDalleConfig()
     }
     
     /// Init

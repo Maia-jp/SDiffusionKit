@@ -8,7 +8,7 @@
 import Foundation
 
 
-public struct SDiffusionDalleConfig:SDiffusionConfig {
+public struct SDiffusionMiniDalleConfig:SDiffusionConfig {
     public var usedModel: SDiffusionModel
     public var saveAsPng:Bool
     public var progressiveOutputs:Bool
